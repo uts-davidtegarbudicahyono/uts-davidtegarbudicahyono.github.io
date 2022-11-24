@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Logo Brand dan Nama */
+.brand span{
+    margin-left: 0px;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #1170A5;
+    text-decoration: none;
+}
+.brand li,a,button{
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #1170A5;
+    text-decoration: none;
+}
+
+.brand-li{
+    margin-left: 300px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 3%;
+    background-color: #a8cbd1;
+}
+.brand{
+    list-style: none;
+}
+.brand li{
+    display: inline-block;
+    padding: 5px;
+}
+.brand span{
+    margin-right: 250px;
+}
+
+.brand li a:hover{
+    color: red;
+}
+
+.brand input[type=search]{
+    border-radius: 15px;
+    padding: 9px 10px;
+}
+.brand button{
+    padding: 9px 10px;
+    background-color:#FFFFFF;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.brand button:hover{
+    background-color: #FFFFFF;
+}
+/* Jumbotron */
+.jumbotron{
+    height: 520px;
+    margin-top: 0px;
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-position-y:-100px ;
+}
+.text-brand{
+    margin-left: 50px;
+    padding: 70px;
+    color: #FFFFFF;
+}
+.text-brand h1{
+    font-size: 45px;
+}
+.text-brand p{
+    font-size: 17px;
+    text-align: justify;
+    color: white;
+}
+
+.btn-Jelajahi{
+    width: 180px;
+    height: 50px;
+    background-color: #8ec2af;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 60px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.btn-Jelajahi a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.btn-Video{
+    width: 180px;
+    height: 50px;
+    background-color: #d1d4a2;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.btn-Video a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+/* Konten Objek Wisata */
+.objekwisata{
+    margin: 5px;
+    padding: 10px;
+    background-color: #D1D1D1;
+    column-count: 2;
+      -moz-column-count: 2;
+      -webkit-column-count: 2;
+      column-gap: 20px;
+      -moz-column-gap: 20px;
+      -webkit-column-gap: 20px;
+      border: 1px solid #ccc;
+}
+.objekwisata .gambarobjek{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.gambar .title{
+    text-align: center;
+    font-size: 15px;
+}
+.objekwisata .isian h1{
+    font-size: 35px;
+    text-align: justify;
+}
+.objekwisata .isian p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 5px;
+}
+.objekwisata .isian .baca{
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    text-decoration: none;
+}
+.link-img{
+    text-decoration: none;
+    font-size: 20px;
+    color: navy;
+}
+/* Sarana dan Akomodasi */
+.kolom{
+    margin: 10px;
+    padding: 20px;
+    background-color: #D1D1D1;
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 20px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+    border: 1px solid #ccc;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,136,169,1);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price{
+    color: #1170A5;
+    font-size: 22px;
+}
+.card button{
+    border: none;
+    outline: 0;
+    padding: 5px;
+    color: white;
+    background-color: #00FF0A;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover{
+    opacity: 0.7;
+}
+/* Form dan Kontak */
+
+.kontak-pesan{
+    margin: 5px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-gap: 20px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+      border: 1px solid #ccc;
+}
+
+.form{
+    margin: auto;
+    padding: 40px;
+    background-color: powderblue;
+    width: 600px;
+    height: 400px;
+}
+
+.form .nama, .email, .hari, .pesan, .tombol{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 10px;
+    cursor: auto;
+}
+.form .tombol{
+    border-radius: 10px;
+    padding: 1px 10px 10px;
+    text-align: center;
+    text-decoration-style: bold;
+    background-color: #FFF338;
+    cursor: pointer;
+    
+}
+.form h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+.form .pesan{
+    height: 60px;
+}
+
+/* Footer */
+footer{
+    margin: 0px;
+    padding: 10px;
+    background-color: #D1D1D1;
+    column-count: 3;
+      -moz-column-count: 3;
+      -webkit-column-count: 3;
+      column-gap: 40px;
+      -moz-column-gap: 40px;
+      -webkit-column-gap: 40px;
+      border: 1px solid #ccc;
+}
+footer p{
+    text-align: justify;
+    font-size: 20px;
+    color: #1170A5;
+}
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+}
